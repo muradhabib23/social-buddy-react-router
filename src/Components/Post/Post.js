@@ -52,7 +52,7 @@ const Post = (props) => {
            <div>
            <CardActions>
                 <Link style={{ textDecoration: 'none', paddingLeft: '10px' }} to={`/posts/${id}`}>
-                    <Button variant="contained" color="primary"> Details
+                    <Button variant="contained" color="primary"> See More
             </Button></Link>
             </CardActions>
            </div>

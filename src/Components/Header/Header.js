@@ -29,7 +29,7 @@ const Header = () => {
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
-                        <Link style={headerStyle} to='/home'>Home</Link>
+                        <Link style={headerStyle} to='/home'>All Posts</Link>
                     </Typography>
                     <Button color="inherit">Murad Habib</Button>
                 </Toolbar>
