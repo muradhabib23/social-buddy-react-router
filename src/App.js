@@ -3,12 +3,12 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import './App.css';
 import Home from './Components/Home/Home';
 import NoMatch from "./Components/NoMatch/NoMatch";
 import PostDetail from "./Components/PostDetail/PostDetail";
+import Header from "./Components/Header/Header";
 
 
 
@@ -18,12 +18,15 @@ function App() {
      <Router>
        <Switch>
          <Route path='/home'>
-           <Home></Home>
+          <Header></Header>
+          <Home></Home>
          </Route>
          <Route path='/posts/:postId'>
+           <Header></Header>
            <PostDetail></PostDetail>
          </Route>
          <Route exact path='/'>
+           <Header></Header>
            <Home></Home>
          </Route>
          <Route path='*'>
