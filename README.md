@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Social Buddy Website: https://social-buddy-react-router-coolwave23.netlify.app/
+
+•	Built single page website by using fetched data hosted in netlify
+•	In homepage used card with random image, title and description
+•	Also used fetched random comments with images
+
+Technology: React, React Router, Material UI, JSON:API, GitHub
+
+
 ## Available Scripts
 
 In the project directory, you can run:
